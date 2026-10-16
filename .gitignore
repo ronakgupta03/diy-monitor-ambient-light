@@ -1,0 +1,13 @@
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs and runtime caches
+*.log
+*.tmp
+__pycache__/
+
+# HyperHDR database and local backups
+*.db
+*.db-journal
+local-secrets.env
