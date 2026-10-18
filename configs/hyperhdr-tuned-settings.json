@@ -1,0 +1,1128 @@
+{
+  "automaticToneMapping": {
+    "enable": false,
+    "time_to_disable_tone_mapping": 500,
+    "time_to_tone_mapping": 30,
+    "tone_mapping_u_threshold": 175,
+    "tone_mapping_v_threshold": 160,
+    "tone_mapping_y_threshold": 180
+  },
+  "backgroundEffect": {
+    "color": [
+      255,
+      138,
+      0
+    ],
+    "effect": "Rainbow swirl fast",
+    "enable": false,
+    "type": "effect"
+  },
+  "blackborderdetector": {
+    "blurRemoveCnt": 1,
+    "borderFrameCnt": 50,
+    "enable": true,
+    "maxInconsistentCnt": 10,
+    "mode": "default",
+    "threshold": 5,
+    "unknownFrameCnt": 600
+  },
+  "color": {
+    "channelAdjustment": [
+      {
+        "backlightColored": true,
+        "backlightThreshold": 0.0039,
+        "black": [
+          0,
+          0,
+          0
+        ],
+        "blue": [
+          0,
+          0,
+          255
+        ],
+        "classic_config": true,
+        "cyan": [
+          0,
+          255,
+          255
+        ],
+        "gamma": 1.8,
+        "green": [
+          0,
+          255,
+          0
+        ],
+        "luminanceGain": 1,
+        "magenta": [
+          255,
+          0,
+          255
+        ],
+        "powerLimit": 1,
+        "red": [
+          255,
+          0,
+          0
+        ],
+        "saturationGain": 1.4,
+        "scaleOutput": 1,
+        "temperatureBlue": 1,
+        "temperatureGreen": 1,
+        "temperatureRed": 1,
+        "temperatureSetting": "disabled",
+        "white": [
+          255,
+          255,
+          255
+        ],
+        "yellow": [
+          255,
+          255,
+          0
+        ]
+      }
+    ],
+    "imageToLedMappingType": "advanced",
+    "sparse_processing": false
+  },
+  "device": {
+    "brightnessMax": true,
+    "brightnessMaxLevel": 255,
+    "colorOrder": "rgb",
+    "host": "172.24.203.19",
+    "maxRetry": 60,
+    "refreshTime": 20,
+    "restoreOriginalState": false,
+    "type": "wled"
+  },
+  "effects": {
+    "disable": [
+      ""
+    ],
+    "paths": [
+      "$ROOT/custom-effects"
+    ]
+  },
+  "flatbufServer": {
+    "enable": true,
+    "hdrToneMapping": false,
+    "port": 19400,
+    "quarterOfFrameMode": false,
+    "timeout": 5
+  },
+  "foregroundEffect": {
+    "color": [
+      255,
+      0,
+      0
+    ],
+    "duration_ms": 3000,
+    "effect": "Rainbow swirl fast",
+    "enable": true,
+    "type": "effect"
+  },
+  "forwarder": {
+    "enable": false,
+    "flat": [
+      "remote_ip:19400"
+    ],
+    "json": []
+  },
+  "general": {
+    "disableLedsStartup": false,
+    "disableOnLocked": true,
+    "name": "My HyperHDR Config",
+    "showOptHelp": true,
+    "version": 6
+  },
+  "jsonServer": {
+    "port": 19444
+  },
+  "ledConfig": {
+    "classic": {
+      "bottom": 36,
+      "edgegap": 0,
+      "glength": 0,
+      "gpos": 0,
+      "groupX": 0,
+      "groupY": 0,
+      "hdepth": 18,
+      "left": 24,
+      "overlap": 20,
+      "pblh": 0,
+      "pblv": 100,
+      "pbrh": 100,
+      "pbrv": 100,
+      "position": 0,
+      "ptlh": 0,
+      "ptlv": 0,
+      "ptrh": 100,
+      "ptrv": 0,
+      "reverse": false,
+      "right": 24,
+      "top": 36,
+      "vdepth": 14
+    },
+    "matrix": {
+      "cabling": "snake",
+      "ledshoriz": 1,
+      "ledsvert": 1,
+      "start": "top-left"
+    }
+  },
+  "leds": [
+    {
+      "group": 0,
+      "hmax": 0.0278,
+      "hmin": 0,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 0.0556,
+      "hmin": 0.0278,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 0.0833,
+      "hmin": 0.0556,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 0.1111,
+      "hmin": 0.0833,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 0.1389,
+      "hmin": 0.1111,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 0.1667,
+      "hmin": 0.1389,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 0.1944,
+      "hmin": 0.1667,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 0.2222,
+      "hmin": 0.1944,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 0.25,
+      "hmin": 0.2222,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 0.2778,
+      "hmin": 0.25,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 0.3056,
+      "hmin": 0.2778,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 0.3333,
+      "hmin": 0.3056,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 0.3611,
+      "hmin": 0.3333,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 0.3889,
+      "hmin": 0.3611,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 0.4167,
+      "hmin": 0.3889,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 0.4444,
+      "hmin": 0.4167,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 0.4722,
+      "hmin": 0.4444,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 0.5,
+      "hmin": 0.4722,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 0.5278,
+      "hmin": 0.5,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 0.5556,
+      "hmin": 0.5278,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 0.5833,
+      "hmin": 0.5556,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 0.6111,
+      "hmin": 0.5833,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 0.6389,
+      "hmin": 0.6111,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 0.6667,
+      "hmin": 0.6389,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 0.6944,
+      "hmin": 0.6667,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 0.7222,
+      "hmin": 0.6944,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 0.75,
+      "hmin": 0.7222,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 0.7778,
+      "hmin": 0.75,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 0.8056,
+      "hmin": 0.7778,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 0.8333,
+      "hmin": 0.8056,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 0.8611,
+      "hmin": 0.8333,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 0.8889,
+      "hmin": 0.8611,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 0.9167,
+      "hmin": 0.8889,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 0.9444,
+      "hmin": 0.9167,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 0.9722,
+      "hmin": 0.9444,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 1,
+      "hmin": 0.9722,
+      "vmax": 0.08,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 1,
+      "hmin": 0.95,
+      "vmax": 0.0417,
+      "vmin": 0
+    },
+    {
+      "group": 0,
+      "hmax": 1,
+      "hmin": 0.95,
+      "vmax": 0.0833,
+      "vmin": 0.0417
+    },
+    {
+      "group": 0,
+      "hmax": 1,
+      "hmin": 0.95,
+      "vmax": 0.125,
+      "vmin": 0.0833
+    },
+    {
+      "group": 0,
+      "hmax": 1,
+      "hmin": 0.95,
+      "vmax": 0.1667,
+      "vmin": 0.125
+    },
+    {
+      "group": 0,
+      "hmax": 1,
+      "hmin": 0.95,
+      "vmax": 0.2083,
+      "vmin": 0.1667
+    },
+    {
+      "group": 0,
+      "hmax": 1,
+      "hmin": 0.95,
+      "vmax": 0.25,
+      "vmin": 0.2083
+    },
+    {
+      "group": 0,
+      "hmax": 1,
+      "hmin": 0.95,
+      "vmax": 0.2917,
+      "vmin": 0.25
+    },
+    {
+      "group": 0,
+      "hmax": 1,
+      "hmin": 0.95,
+      "vmax": 0.3333,
+      "vmin": 0.2917
+    },
+    {
+      "group": 0,
+      "hmax": 1,
+      "hmin": 0.95,
+      "vmax": 0.375,
+      "vmin": 0.3333
+    },
+    {
+      "group": 0,
+      "hmax": 1,
+      "hmin": 0.95,
+      "vmax": 0.4167,
+      "vmin": 0.375
+    },
+    {
+      "group": 0,
+      "hmax": 1,
+      "hmin": 0.95,
+      "vmax": 0.4583,
+      "vmin": 0.4167
+    },
+    {
+      "group": 0,
+      "hmax": 1,
+      "hmin": 0.95,
+      "vmax": 0.5,
+      "vmin": 0.4583
+    },
+    {
+      "group": 0,
+      "hmax": 1,
+      "hmin": 0.95,
+      "vmax": 0.5417,
+      "vmin": 0.5
+    },
+    {
+      "group": 0,
+      "hmax": 1,
+      "hmin": 0.95,
+      "vmax": 0.5833,
+      "vmin": 0.5417
+    },
+    {
+      "group": 0,
+      "hmax": 1,
+      "hmin": 0.95,
+      "vmax": 0.625,
+      "vmin": 0.5833
+    },
+    {
+      "group": 0,
+      "hmax": 1,
+      "hmin": 0.95,
+      "vmax": 0.6667,
+      "vmin": 0.625
+    },
+    {
+      "group": 0,
+      "hmax": 1,
+      "hmin": 0.95,
+      "vmax": 0.7083,
+      "vmin": 0.6667
+    },
+    {
+      "group": 0,
+      "hmax": 1,
+      "hmin": 0.95,
+      "vmax": 0.75,
+      "vmin": 0.7083
+    },
+    {
+      "group": 0,
+      "hmax": 1,
+      "hmin": 0.95,
+      "vmax": 0.7917,
+      "vmin": 0.75
+    },
+    {
+      "group": 0,
+      "hmax": 1,
+      "hmin": 0.95,
+      "vmax": 0.8333,
+      "vmin": 0.7917
+    },
+    {
+      "group": 0,
+      "hmax": 1,
+      "hmin": 0.95,
+      "vmax": 0.875,
+      "vmin": 0.8333
+    },
+    {
+      "group": 0,
+      "hmax": 1,
+      "hmin": 0.95,
+      "vmax": 0.9167,
+      "vmin": 0.875
+    },
+    {
+      "group": 0,
+      "hmax": 1,
+      "hmin": 0.95,
+      "vmax": 0.9583,
+      "vmin": 0.9167
+    },
+    {
+      "group": 0,
+      "hmax": 1,
+      "hmin": 0.95,
+      "vmax": 1,
+      "vmin": 0.9583
+    },
+    {
+      "group": 0,
+      "hmax": 1,
+      "hmin": 0.9722,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.9722,
+      "hmin": 0.9444,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.9444,
+      "hmin": 0.9167,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.9167,
+      "hmin": 0.8889,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.8889,
+      "hmin": 0.8611,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.8611,
+      "hmin": 0.8333,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.8333,
+      "hmin": 0.8056,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.8056,
+      "hmin": 0.7778,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.7778,
+      "hmin": 0.75,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.75,
+      "hmin": 0.7222,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.7222,
+      "hmin": 0.6944,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.6944,
+      "hmin": 0.6667,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.6667,
+      "hmin": 0.6389,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.6389,
+      "hmin": 0.6111,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.6111,
+      "hmin": 0.5833,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.5833,
+      "hmin": 0.5556,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.5556,
+      "hmin": 0.5278,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.5278,
+      "hmin": 0.5,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.5,
+      "hmin": 0.4722,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.4722,
+      "hmin": 0.4444,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.4444,
+      "hmin": 0.4167,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.4167,
+      "hmin": 0.3889,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.3889,
+      "hmin": 0.3611,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.3611,
+      "hmin": 0.3333,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.3333,
+      "hmin": 0.3056,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.3056,
+      "hmin": 0.2778,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.2778,
+      "hmin": 0.25,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.25,
+      "hmin": 0.2222,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.2222,
+      "hmin": 0.1944,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.1944,
+      "hmin": 0.1667,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.1667,
+      "hmin": 0.1389,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.1389,
+      "hmin": 0.1111,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.1111,
+      "hmin": 0.0833,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.0833,
+      "hmin": 0.0556,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.0556,
+      "hmin": 0.0278,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.0278,
+      "hmin": 0,
+      "vmax": 1,
+      "vmin": 0.92
+    },
+    {
+      "group": 0,
+      "hmax": 0.05,
+      "hmin": 0,
+      "vmax": 1,
+      "vmin": 0.9583
+    },
+    {
+      "group": 0,
+      "hmax": 0.05,
+      "hmin": 0,
+      "vmax": 0.9583,
+      "vmin": 0.9167
+    },
+    {
+      "group": 0,
+      "hmax": 0.05,
+      "hmin": 0,
+      "vmax": 0.9167,
+      "vmin": 0.875
+    },
+    {
+      "group": 0,
+      "hmax": 0.05,
+      "hmin": 0,
+      "vmax": 0.875,
+      "vmin": 0.8333
+    },
+    {
+      "group": 0,
+      "hmax": 0.05,
+      "hmin": 0,
+      "vmax": 0.8333,
+      "vmin": 0.7917
+    },
+    {
+      "group": 0,
+      "hmax": 0.05,
+      "hmin": 0,
+      "vmax": 0.7917,
+      "vmin": 0.75
+    },
+    {
+      "group": 0,
+      "hmax": 0.05,
+      "hmin": 0,
+      "vmax": 0.75,
+      "vmin": 0.7083
+    },
+    {
+      "group": 0,
+      "hmax": 0.05,
+      "hmin": 0,
+      "vmax": 0.7083,
+      "vmin": 0.6667
+    },
+    {
+      "group": 0,
+      "hmax": 0.05,
+      "hmin": 0,
+      "vmax": 0.6667,
+      "vmin": 0.625
+    },
+    {
+      "group": 0,
+      "hmax": 0.05,
+      "hmin": 0,
+      "vmax": 0.625,
+      "vmin": 0.5833
+    },
+    {
+      "group": 0,
+      "hmax": 0.05,
+      "hmin": 0,
+      "vmax": 0.5833,
+      "vmin": 0.5417
+    },
+    {
+      "group": 0,
+      "hmax": 0.05,
+      "hmin": 0,
+      "vmax": 0.5417,
+      "vmin": 0.5
+    },
+    {
+      "group": 0,
+      "hmax": 0.05,
+      "hmin": 0,
+      "vmax": 0.5,
+      "vmin": 0.4583
+    },
+    {
+      "group": 0,
+      "hmax": 0.05,
+      "hmin": 0,
+      "vmax": 0.4583,
+      "vmin": 0.4167
+    },
+    {
+      "group": 0,
+      "hmax": 0.05,
+      "hmin": 0,
+      "vmax": 0.4167,
+      "vmin": 0.375
+    },
+    {
+      "group": 0,
+      "hmax": 0.05,
+      "hmin": 0,
+      "vmax": 0.375,
+      "vmin": 0.3333
+    },
+    {
+      "group": 0,
+      "hmax": 0.05,
+      "hmin": 0,
+      "vmax": 0.3333,
+      "vmin": 0.2917
+    },
+    {
+      "group": 0,
+      "hmax": 0.05,
+      "hmin": 0,
+      "vmax": 0.2917,
+      "vmin": 0.25
+    },
+    {
+      "group": 0,
+      "hmax": 0.05,
+      "hmin": 0,
+      "vmax": 0.25,
+      "vmin": 0.2083
+    },
+    {
+      "group": 0,
+      "hmax": 0.05,
+      "hmin": 0,
+      "vmax": 0.2083,
+      "vmin": 0.1667
+    },
+    {
+      "group": 0,
+      "hmax": 0.05,
+      "hmin": 0,
+      "vmax": 0.1667,
+      "vmin": 0.125
+    },
+    {
+      "group": 0,
+      "hmax": 0.05,
+      "hmin": 0,
+      "vmax": 0.125,
+      "vmin": 0.0833
+    },
+    {
+      "group": 0,
+      "hmax": 0.05,
+      "hmin": 0,
+      "vmax": 0.0833,
+      "vmin": 0.0417
+    },
+    {
+      "group": 0,
+      "hmax": 0.05,
+      "hmin": 0,
+      "vmax": 0.0417,
+      "vmin": 0
+    }
+  ],
+  "logger": {
+    "level": "debug"
+  },
+  "mqtt": {
+    "custom_topic": "",
+    "disableApiAccess": false,
+    "enable": false,
+    "host": "",
+    "ignore_ssl_errors": true,
+    "is_ssl": false,
+    "maxRetry": 0,
+    "password": "",
+    "port": 1883,
+    "username": ""
+  },
+  "network": {
+    "apiAuth": true,
+    "internetAccessAPI": false,
+    "ipWhitelist": [],
+    "localAdminAuth": false,
+    "localApiAuth": false,
+    "restirctedInternetAccessAPI": false
+  },
+  "protoServer": {
+    "enable": false,
+    "port": 19445,
+    "timeout": 5
+  },
+  "rawUdpServer": {
+    "enable": false,
+    "port": 5568,
+    "priority": 109
+  },
+  "smoothing": {
+    "antiFlickeringFilter": true,
+    "continuousOutput": false,
+    "damping": 26,
+    "enable": true,
+    "smoothingFactor": 0,
+    "stiffness": 150,
+    "time_ms": 150,
+    "type": "HybridRgbInterpolator",
+    "updateFrequency": 50,
+    "y_limit": 0.03
+  },
+  "soundEffect": {
+    "device": "default",
+    "enable": false,
+    "enable_smoothing": true
+  },
+  "systemControl": {
+    "cecControl": false,
+    "systemInstanceEnable": true,
+    "systemInstancePriority": 245
+  },
+  "systemGrabber": {
+    "cropBottom": 0,
+    "cropLeft": 0,
+    "cropRight": 0,
+    "cropTop": 0,
+    "device": "auto",
+    "fps": 20,
+    "hardware": true,
+    "hdrToneMapping": false,
+    "monitor_nits": 200,
+    "reorder_displays": 0,
+    "signalDetection": false,
+    "videoMode": 512
+  },
+  "videoControl": {
+    "cecControl": false,
+    "videoInstanceEnable": false,
+    "videoInstancePriority": 240
+  },
+  "videoDetection": {
+    "height": 0,
+    "quality": 0,
+    "signature": "",
+    "width": 0
+  },
+  "videoGrabber": {
+    "autoResume": false,
+    "autoSignalDetection": false,
+    "cecHdrStart": 0,
+    "cecHdrStop": 0,
+    "cropBottom": 0,
+    "cropLeft": 0,
+    "cropRight": 0,
+    "cropTop": 0,
+    "device": "auto",
+    "fps": 0,
+    "fpsSoftwareDecimation": 1,
+    "hardware_brightness": 0,
+    "hardware_contrast": 0,
+    "hardware_hue": 0,
+    "hardware_saturation": 0,
+    "hdrToneMapping": false,
+    "input": -1,
+    "led_off_pause": false,
+    "qFrame": false,
+    "signalDetection": false,
+    "videoEncoding": "auto",
+    "videoMode": "auto"
+  },
+  "webConfig": {
+    "crtPath": "",
+    "document_root": "",
+    "keyPassPhrase": "",
+    "keyPath": "",
+    "port": 8090,
+    "sslPort": 8092
+  }
+}
